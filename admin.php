@@ -95,14 +95,14 @@ if ($btn == 2) {
 
 <nav class="navbar is-fixed-top box-shadow-y " role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a  id="vista-1" class="navbar-item">
-        Gestion de Correos
-        </a>
+   <div id="vista-1" class="navbar-item">
+            Gestion de Correos
+        </div>
 
 
-        <a  id="vista-2" class="navbar-item">
-        Configuracion del Servidor de correos
-        </a>
+        <div id="vista-2" class="navbar-item">
+            Configuracion del Servidor de correos
+        </div>
 
 
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -115,14 +115,17 @@ if ($btn == 2) {
     <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
 
-            <a class="navbar-item" id="item1">
-                Inicio
-            </a>
+            <div class="navbar-item">
+                <button id="item1" class="button">
+                    Inicio
+                </button>
+            </div>
 
-            <a class="navbar-item" id="item2">
-                Configuracion
-            </a>
-
+            <div class="navbar-item" id="item2">
+                <button id="item2" class="button">
+                    Configuracion
+                </button>
+            </div>
 
         </div>
 
