@@ -1,0 +1,20 @@
+{
+    "name": "sauto/transportacol",
+    "description": "sitio wed de transportacol",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Sauto\\Transportacol\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sauto-dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}

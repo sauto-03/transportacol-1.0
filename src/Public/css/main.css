@@ -1,0 +1,179 @@
+* {
+    list-style: none;
+    font-family: 'Segoe UI';
+}
+
+.header {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.sangria::before {
+    content: "\2022";
+    padding-right: 1px;
+    color: red;
+    font-size: 30px;
+    margin-top: -75px;
+}
+
+#vista-2{
+    display: none;
+}
+
+.sangria2::before {
+    content: "\2022";
+    padding-right: 1px;
+    color: red;
+    font-size: 30px;
+    margin-top: -75px;
+}
+
+
+.card-title {
+    font-size: 25px;
+}
+
+#color-fondo {
+    background-color: #1f2345;
+}
+
+#border {
+    border-top-color: #1f234500;
+}
+
+#color-fondo2 {
+    background-color: #1f2345;
+    padding: 30px;
+}
+
+
+#color1 {
+    color: black;
+}
+
+
+#color2 {
+    color: white;
+}
+
+#color2-c {
+    color: white;
+    font-size: 24px;
+}
+
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mi-card {
+    height: 30px;
+    width: 900px;
+}
+
+.text-card {
+    width: 500px;
+}
+
+.text-card-mi {
+    font-size: 18px;
+}
+
+#color-title {
+    margin-top: 3em;
+    color: white;
+}
+
+.read-more {
+    text-align: center;
+}
+
+.text2 {
+    font-size: 17px;
+    text-align: center;
+}
+
+
+#color-fondo2 {
+    background-color: #1f2345;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+#btn-salir {
+    font-size: 18px;
+    color: blue;
+}
+
+#i {
+    font-size: 25px;
+}
+
+#item1 {
+    font-size: 18px;
+    color: blue;
+}
+
+#item2 {
+    font-size: 18px;
+}
+
+#item3 {
+    font-size: 18px;
+}
+
+
+#dos-form {
+    display: none;
+}
+
+#dos-form2 {
+    display: none;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+    margin-top: 200px;
+}
+
+#config {
+    display: none;
+}
+
+#usuario {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .normal {
+        display: none;
+    }
+
+    #color2-c {
+        color: white;
+        font-size: 18px;
+    }
+
+    .mobil {
+        display: block;
+    }
+
+
+}
